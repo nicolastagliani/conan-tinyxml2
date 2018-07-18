@@ -35,11 +35,14 @@ conan_basic_setup()''')
 
     def package(self):
         self.copy("*.h", dst="include", src="tinyxml2")
-        self.copy("*tinyxml2.lib", dst="lib", keep_path=False)
+        self.copy("*.lib", dst="lib", keep_path=False)
         self.copy("*.dll", dst="bin", keep_path=False)
         self.copy("*.so", dst="lib", keep_path=False)
         self.copy("*.dylib", dst="lib", keep_path=False)
         self.copy("*.a", dst="lib", keep_path=False)
 
     def package_info(self):
-        self.cpp_info.libs = ["tinyxml2"]
+        if not self.settings.build_type == "Debug":
+            self.cpp_info.libs = ["tinyxml2"]
+        else:
+            self.cpp_info.libs = ["tinyxml2d"]

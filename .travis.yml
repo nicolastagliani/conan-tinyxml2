@@ -1,7 +1,7 @@
 
 env:
    global:
-     - CONAN_REFERENCE: "TinyXML2/6.2.0"
+     - CONAN_REFERENCE: "tinyxml2/6.2.0"
      - CONAN_USERNAME: "user"
      - CONAN_LOGIN_USERNAME: "user"
      - CONAN_CHANNEL: "channel"

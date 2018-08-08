@@ -3,7 +3,7 @@
 
 # conan-tinyxml2
 
-[Conan](https://bintray.com/nicolastagliani/conan-tinyxml2/tinyxml2%3Anoname) package for TinyXML2 library made by Lee Thomason.
+[Conan](https://bintray.com/nicolastagliani/conan-tinyxml2/tinyxml2%3Anoname) package for [TinyXML2](https://github.com/leethomason/tinyxml2) library made by Lee Thomason.
 
 
 ## Basic setup

@@ -4,8 +4,10 @@ env:
      - CONAN_REFERENCE: "tinyxml2/6.2.0"
      - CONAN_USERNAME: "nicolastagliani"
      - CONAN_LOGIN_USERNAME: "nicolastagliani"
-     - CONAN_CHANNEL: "https://api.bintray.com/conan/nicolastagliani/tinyxml2"
-     
+     - CONAN_UPLOAD: "https://api.bintray.com/conan/nicolastagliani/tinyxml2"
+     - CONAN_CHANNEL: "testing"
+     - CONAN_STABLE_BRANCH_PATTERN: "release/*"
+
 linux: &linux
    os: linux
    sudo: required

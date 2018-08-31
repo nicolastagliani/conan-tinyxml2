@@ -9,14 +9,12 @@
     
 recipe is currently hosted on bintray but the plan is to make it move to conan-center so for the time being you need to add the remote
 
-    $ conan remote add conan-tinyxml2 https://api.bintray.com/conan/nicolastagliani/conan-tinyxml2  
+    $ conan remote add conan-tinyxml2 https://api.bintray.com/conan/nicolastagliani/tinyxml2  
 
 and then
 
-    $ conan install tinyxml2/6.2.0@nicolastagliani/stable
+    $ conan install tinyxml2/6.2.0@nicolastagliani/stable 
     
-no pre-built package is currently provided so you mighy want to append --build tinyxml2 to the install command
-
 ## Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*

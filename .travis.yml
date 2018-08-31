@@ -2,9 +2,9 @@
 env:
    global:
      - CONAN_REFERENCE: "tinyxml2/6.2.0"
-     - CONAN_USERNAME: "user"
-     - CONAN_LOGIN_USERNAME: "user"
-     - CONAN_CHANNEL: "channel"
+     - CONAN_USERNAME: "nicolastagliani"
+     - CONAN_LOGIN_USERNAME: "nicolastagliani"
+     - CONAN_CHANNEL: "https://api.bintray.com/conan/nicolastagliani/tinyxml2"
      
 linux: &linux
    os: linux

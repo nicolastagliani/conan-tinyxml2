@@ -6,9 +6,10 @@ environment:
     PYTHON_ARCH: "32"
 
     CONAN_REFERENCE: "tinyxml2/6.2.0"
-    CONAN_USERNAME: "user"
-    CONAN_LOGIN_USERNAME: "user"
-    CONAN_CHANNEL: "channel"
+    CONAN_USERNAME: "nicolastagliani"
+    CONAN_LOGIN_USERNAME: "nicolastagliani"
+    CONAN_CHANNEL: "stable"
+    CONAN_UPLOAD: "https://api.bintray.com/conan/nicolastagliani/tinyxml2"
     
     matrix:
         - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015

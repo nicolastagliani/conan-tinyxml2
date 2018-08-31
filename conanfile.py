@@ -27,10 +27,9 @@ conan_basic_setup()''')
     def build(self):
         cmake = CMake(self)
         cmake.definitions["BUILD_TESTING"] = False
-        if self.options.shared:
-            cmake.definitions["BUILD_SHARED_LIBS"] = True
-        else:
+        if not self.options.shared:
             cmake.definitions["BUILD_STATIC_LIBS"] = True
+
         cmake.configure(source_folder=self.source_dir)
         cmake.build()
 

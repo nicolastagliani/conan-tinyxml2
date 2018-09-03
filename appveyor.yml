@@ -8,9 +8,9 @@ environment:
     CONAN_REFERENCE: "tinyxml2/6.2.0"
     CONAN_USERNAME: "nicolastagliani"
     CONAN_LOGIN_USERNAME: "nicolastagliani"
-    CONAN_CHANNEL: "testing"
+    CONAN_CHANNEL: "stable"
     CONAN_UPLOAD: "https://api.bintray.com/conan/nicolastagliani/tinyxml2"
-    CONAN_STABLE_BRANCH_PATTERN: "release/*"
+    CONAN_STABLE_BRANCH_PATTERN: "stable/*"
 
     matrix:
         - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015

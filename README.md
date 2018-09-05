@@ -7,11 +7,7 @@
 
 ## Basic setup
     
-recipe is currently hosted on bintray but the plan is to make it move to conan-center so for the time being you need to add the remote
-
-    $ conan remote add conan-tinyxml2 https://api.bintray.com/conan/nicolastagliani/tinyxml2  
-
-and then
+Recipe is hosted on my personal bintray and it's included also in conan center. Since conan-center is configured by default in conan installation you should be able to get the library just by installing it:
 
     $ conan install tinyxml2/6.2.0@nicolastagliani/stable 
     

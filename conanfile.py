@@ -3,7 +3,7 @@ import os
 
 class Tinyxml2Conan(ConanFile):
     name = "tinyxml2"
-    version = "6.2.0"
+    version = "7.0.0"
     license = "MIT"
     url = "https://github.com/nicolastagliani/conan-tinyxml2"
     description = "TinyXML2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs."

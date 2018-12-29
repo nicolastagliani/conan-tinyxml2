@@ -9,14 +9,14 @@
     
 Recipe is hosted on my personal bintray and it's included also in conan center. Since conan-center is configured by default in conan installation you should be able to get the library just by installing it:
 
-    $ conan install tinyxml2/6.2.0@nicolastagliani/stable 
+    $ conan install tinyxml2/7.0.0@nicolastagliani/stable 
     
 ## Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
     
     [requires]
-    tinyxml2/6.2.0@nicolastagliani/stable
+    tinyxml2/7.0.0@nicolastagliani/stable
 
     [options]
     tinyxml2:shared=True # False

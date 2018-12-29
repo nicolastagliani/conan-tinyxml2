@@ -1,11 +1,11 @@
 
 env:
    global:
-     - CONAN_REFERENCE: "tinyxml2/7.0.0"
+     - CONAN_REFERENCE: "tinyxml2/7.0.1"
      - CONAN_USERNAME: "nicolastagliani"
      - CONAN_LOGIN_USERNAME: "nicolastagliani"
      - CONAN_UPLOAD: "https://api.bintray.com/conan/nicolastagliani/tinyxml2"
-     - CONAN_CHANNEL: "stable"
+     - CONAN_CHANNEL: "testing"
      - CONAN_STABLE_BRANCH_PATTERN: "stable/*"
 
 linux: &linux

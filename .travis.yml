@@ -5,7 +5,7 @@ env:
      - CONAN_USERNAME: "nicolastagliani"
      - CONAN_LOGIN_USERNAME: "nicolastagliani"
      - CONAN_UPLOAD: "https://api.bintray.com/conan/nicolastagliani/tinyxml2"
-     - CONAN_CHANNEL: "testing"
+     - CONAN_CHANNEL: "stable"
      - CONAN_STABLE_BRANCH_PATTERN: "stable/*"
 
 linux: &linux

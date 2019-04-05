@@ -13,6 +13,9 @@ class Tinyxml2Conan(ConanFile):
     generators = "cmake"
     source_dir = "tinyxml2"
 
+    def configure(self):
+        del self.settings.compiler.libcxx
+
     def source(self):
         self.run("git clone https://github.com/leethomason/tinyxml2.git {0}".format(self.source_dir))
         self.run("cd {0} && git checkout {1}".format(self.source_dir, self.version))

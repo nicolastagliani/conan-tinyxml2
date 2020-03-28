@@ -1,3 +1,6 @@
+This project is archived and tinyxml2 integration for conan will be managed from the [conan-center-index](https://github.com/conan-io/conan-center-index)
+
+
 [![Build Status](https://travis-ci.org/nicolastagliani/conan-tinyxml2.svg?branch=master)](https://travis-ci.org/nicolastagliani/conan-tinyxml2) 
 [![Build status](https://ci.appveyor.com/api/projects/status/xcp120nf2ilk0a7n?svg=true)](https://ci.appveyor.com/project/nicolastagliani/conan-tinyxml2)
 # conan-tinyxml2
